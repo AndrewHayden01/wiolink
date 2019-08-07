@@ -5,7 +5,7 @@ git clone https://github.com/micropython/micropython.git ~/micropython --recurse
 cd ~/wiolink
 cp -r umqtt ~/micropython/ports/esp8266/modules
 rm ~/micropython/ports/esp8266/modules/inisetup.py
-cp {wio_link,ssd1306,tsl2561,sensors,actuators,displays,urequests,inisetup,iot}.py ~/micropython/ports/esp8266/modules
+cp {wio_link,ssd1306,tsl2561,sensors,actuators,displays,urequests,inisetup,iot,sheetbroker}.py ~/micropython/ports/esp8266/modules
 #rm ~/micropython/ports/esp8266/modules/{dht,ds18x20,onewire,upip,upip_utarfile}.py
 #cp ~/micropython/drivers/dht/dht.py micropython/ports/esp8266/modules/dht.py
 #cp ~/micropython/drivers/onewire/{ds18x20,onewire}.py micropython/ports/esp8266/modules
